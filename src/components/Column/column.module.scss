@@ -1,0 +1,21 @@
+.container {
+  margin: 0.5rem;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  h3 {
+    padding: 0.5rem;
+  }
+  .tasks {
+    padding: 0.5rem;
+    transition: background-color 0.2s ease;
+    flex-grow: 1;
+    min-height: 100px;
+  }
+}
+
+.color {
+  background-color: #06d6a0;
+}
